@@ -48,6 +48,10 @@ nav .nav-right-section a{
     margin-right:20px;   
 }
 
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
 /* Ícono del menú */
 nav .nav-right-section .menu{
     /* Agregar iconos desde css */
@@ -59,6 +63,12 @@ nav .nav-right-section .menu{
     background-repeat: no-repeat;
 }
 
+nav .nav-right-section .menu:hover{
+    box-shadow: 0px 0px 0px 9px #dfe1e5;
+    border-radius: 100%;
+    background-color: #dfe1e5;
+}
+
 /* Imagen del usuario */
 nav .nav-right-section img{
     /* Redondeamos bordes */
@@ -66,6 +76,11 @@ nav .nav-right-section img{
     width: 30px;
     height: 30px;
     margin-left: 20px;
+}
+
+nav .nav-right-section img:hover{
+    box-shadow: 0px 0px 0px 4px #dfe1e5;
+    border-radius: 100%;
 }
 
 /* *************************************************** */
@@ -100,12 +115,16 @@ main .main-input-container{
     background-color: rgba(255, 255, 255, 0);
     /* ancho borde || borde-estilo || borde-color */
     border: 1px solid #dfe1e5;
-    border-radius: 20px;
+    border-radius: 24px;
     width: 540px;
 }
 
+main .main-input-container:hover{
+    box-shadow: 1px 2px 0px 1px #a4c0f8;
+}
+
 main .main-input input{
-    height: 35px;
+    height: 44px;
     /* quitar el borde */
     border: none;
     outline: none;
@@ -119,7 +138,7 @@ main .main-input .search-icon{
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 main .main-input .micro-icon{
@@ -129,7 +148,8 @@ main .main-input .micro-icon{
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
-    margin-left: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 main .main-input .cam-icon{
@@ -137,7 +157,7 @@ main .main-input .cam-icon{
     background-size: contain;
     padding-right: 10%;
     background-repeat: no-repeat;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 main .Button-Section{
@@ -156,6 +176,10 @@ main .Button-Section .main-button .search-w-google{
     margin-right: 15px;
 }
 
+main .Button-Section .main-button .search-w-google:hover{
+    box-shadow: 0px 0px 0px 2px #dfe1e5;
+}
+
 main .Button-Section .sec-button .luck{
     background-color: rgb(#f8f9fa);
     border-color: rgba(255, 255, 255, 0);
@@ -163,6 +187,10 @@ main .Button-Section .sec-button .luck{
     width: 150px;
     height: 36px;
     font-size: 14px;
+}
+
+main .Button-Section .sec-button .luck:hover{
+    box-shadow: 0px 0px 0px 2px #dfe1e5;
 }
 
 /* **************************************** */
@@ -203,9 +231,17 @@ footer .bottom-f .left-footer .about-g{
     margin-right: 25px;
 }
 
+footer .bottom-f .left-footer .about-g:hover{
+    text-decoration: underline;
+}
+
 footer .bottom-f .left-footer .Publi{
     color: #70757a;
     margin-right: 25px;
+}
+
+footer .bottom-f .left-footer .Publi:hover{
+    text-decoration: underline;
 }
 
 footer .bottom-f .left-footer .Business{
@@ -213,8 +249,16 @@ footer .bottom-f .left-footer .Business{
     margin-right: 25px;
 }
 
+footer .bottom-f .left-footer .Business:hover{
+    text-decoration: underline;
+}
+
 footer .bottom-f .left-footer .h-i-w{
     color: #70757a;
+}
+
+footer .bottom-f .left-footer .h-i-w:hover{
+    text-decoration: underline;
 }
 
 footer .bottom-f .right-footer .Priv{
@@ -222,11 +266,23 @@ footer .bottom-f .right-footer .Priv{
     margin-right: 25px;
 }
 
+footer .bottom-f .right-footer .Priv:hover{
+    text-decoration: underline;
+}
+
 footer .bottom-f .right-footer .Condi{
     color: #70757a;
     margin-right: 25px;
 }
 
+footer .bottom-f .right-footer .Condi:hover{
+    text-decoration: underline;
+}
+
 footer .bottom-f .right-footer .Prefer{
     color: #70757a;
+}
+
+footer .bottom-f .right-footer .Prefer:hover{
+    text-decoration: underline;
 }
